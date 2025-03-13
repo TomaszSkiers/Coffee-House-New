@@ -250,6 +250,31 @@
       "paymentMethod": "cash",
       "status": "pending",
       "createdAt": "2025-03-12T18:14:03.069Z"
+    },
+    {
+      "id": "9f6ce4f9-29ca-4d18-9d3c-729a2fdfa639",
+      "userId": 2,
+      "items": [
+        {
+          "id": "13",
+          "title": "French Press",
+          "price": 30,
+          "image": "french-press.webp",
+          "quantity": 1
+        },
+        {
+          "id": "12",
+          "title": "Coffee Grinder",
+          "price": 35,
+          "image": "coffee-grinder.webp",
+          "quantity": 1
+        }
+      ],
+      "totalPrice": 100,
+      "shippingAddress": "Poland, mazowiecke, Nowy Dwór Mazowiecki 05-100, Warszawska 10 m. 33",
+      "paymentMethod": "bank transfer",
+      "status": "pending",
+      "createdAt": "2025-03-13T18:51:05.820Z"
     }
   ],
   "users": [

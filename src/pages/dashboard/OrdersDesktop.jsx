@@ -9,7 +9,7 @@ import {
 } from '@mui/material'
 import { useFetchOrders } from '../../api/orders'
 import { useState } from 'react'
-// import { DialogDeleteOrder } from './DialogDeleteOrder'
+import { DialogDeleteOrder } from './DialogDeleteOrder'
 
 export default function OrdersDesktop() {
   const { data, isLoading, isError, error } = useFetchOrders()
@@ -93,7 +93,7 @@ export default function OrdersDesktop() {
       ))}
 
       {/** Dialog component */}
-      {/* <DialogDeleteOrder target={target} open={open} handleClose={handleClose}/> */}
+      <DialogDeleteOrder target={target} open={open} handleClose={handleClose}/>
       
     </Box>
   )
