@@ -1,0 +1,127 @@
+Ten kod uruchamia lokalny serwer JSON Server z dodatkowymi funkcjami uwierzytelniania dzięki json-server-auth. Oto szczegółowe omówienie:
+
+Analiza kodu
+Importowanie modułów:
+
+
+const jsonServer = require("json-server");
+const auth = require("json-server-auth");
+const path = require("path");
+json-server: Umożliwia szybkie tworzenie lokalnego serwera REST API, który działa na podstawie pliku JSON.
+json-server-auth: Dodaje funkcje uwierzytelniania (np. logowanie, rejestracja, ochrona endpointów) do serwera JSON.
+path: Umożliwia tworzenie ścieżek w sposób kompatybilny z różnymi systemami operacyjnymi.
+Tworzenie serwera:
+
+
+
+const server = jsonServer.create();
+Tworzy instancję serwera JSON Server.
+Konfiguracja routera:
+
+
+
+const router = jsonServer.router(path.resolve(__dirname, "db.json"));
+path.resolve(__dirname, "db.json"): Ustala pełną ścieżkę do pliku db.json (baza danych).
+jsonServer.router: Tworzy router API na podstawie pliku db.json.
+Domyślne middleware:
+
+
+
+const middlewares = jsonServer.defaults();
+server.use(middlewares);
+Dodaje zestaw domyślnych middleware, takich jak logowanie żądań, obsługa CORS, czy obsługa plików statycznych.
+Przypisanie bazy danych:
+
+
+
+server.db = router.db;
+Ustawia bazę danych serwera na bazę używaną przez router (db.json).
+Dodanie uwierzytelniania:
+
+
+
+server.use(auth);
+Aktywuje middleware json-server-auth, które dodaje obsługę uwierzytelniania.
+Dodanie routera:
+
+
+
+server.use(router);
+Podłącza wcześniej skonfigurowany router, który obsługuje ścieżki API.
+Uruchomienie serwera:
+
+
+
+server.listen(4001, () => {
+  console.log("JSON Server is running");
+});
+Uruchamia serwer nasłuchujący na porcie 4001.
+Po uruchomieniu wyświetli komunikat: "JSON Server is running".
+Jak działa ten serwer?
+Działanie API:
+
+Plik db.json jest źródłem danych dla API.
+Serwer automatycznie generuje endpointy CRUD (Create, Read, Update, Delete) dla każdej kolekcji w db.json.
+Przykład db.json:
+
+json
+
+{
+  "users": [
+    { "id": 1, "name": "John Doe", "email": "john@example.com" }
+  ],
+  "posts": [
+    { "id": 1, "title": "Hello World", "author": "John Doe" }
+  ]
+}
+Dostępne endpointy:
+
+GET /users
+GET /posts
+POST /users
+PUT /users/1
+DELETE /posts/1
+Uwierzytelnianie (json-server-auth):
+
+Dodaje ochronę dostępu do danych w zależności od reguł w pliku db.json.
+
+Przykład reguł:
+
+json
+Skopiuj kod
+{
+  "rules": {
+    "users": 600,  // Tylko właściciel może czytać i pisać
+    "posts": 644   // Właściciel: pełen dostęp, inni: tylko odczyt
+  }
+}
+Obsługiwane endpointy:
+
+Logowanie: POST /login z email i password.
+Rejestracja: POST /register.
+Token: Zwracany jako JWT (JSON Web Token).
+Działanie middleware:
+
+Domyślne middleware: Obsługuje logowanie żądań, przekierowania i obsługę plików statycznych.
+Middleware auth: Weryfikuje tokeny i kontroluje dostęp do danych.
+Uruchamianie serwera
+Instalacja zależności:
+
+bash
+Skopiuj kod
+npm install json-server json-server-auth
+Uruchomienie serwera:
+
+bash
+Skopiuj kod
+node server/server.cjs
+Serwer będzie dostępny pod adresem: http://localhost:4001.
+Podsumowanie
+Funkcjonalność: Szybki lokalny serwer API z uwierzytelnianiem.
+Zalety:
+Prosta konfiguracja.
+Generowanie CRUD na podstawie pliku db.json.
+Obsługa uwierzytelniania dzięki json-server-auth.
+Idealne do:
+Prototypowania.
+Testowania aplikacji frontendu bez backendu produkcyjnego.

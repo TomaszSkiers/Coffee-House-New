@@ -1,0 +1,289 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "Premium Arabica Coffee",
+      "slug": "premium-arabica-coffee",
+      "description": "Our Premium Arabica Coffee is a true delight for coffee enthusiasts. We carefully select our beans from the finest plantations worldwide, ensuring an exceptional taste and aroma that will captivate your palate. Arabica is known for its subtlety and smoothness. Experience the excellence of our unique coffee!",
+      "price": 25,
+      "quantity": 100,
+      "categoryId": "1",
+      "image": "premium-arabica-coffee.webp",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "title": "Italian Espresso Blend",
+      "slug": "italian-espresso-blend",
+      "description": "Our Italian Espresso Blend is a piece of Italy in your cup. It offers an intense, full-bodied flavor and aroma that will transport you straight to an Italian café. Crafted to perfection, it provides the ultimate espresso experience. If you're a fan of strong coffee, this one's for you!",
+      "price": 20,
+      "quantity": 75,
+      "categoryId": "1",
+      "image": "italian-espresso-blend.webp"
+    },
+    {
+      "id": "3",
+      "title": "Creamy Latte Coffee",
+      "slug": "creamy-latte-coffee",
+      "description": "Our Creamy Latte Coffee is the ideal choice for those who enjoy a mild coffee flavor with a delicate touch of milk. It's a harmonious blend of rich coffee and creamy goodness. Savor the comfort of our Latte any time of the day.",
+      "price": 18,
+      "quantity": 85,
+      "categoryId": "1",
+      "image": "creamy-latte-coffee.webp"
+    },
+    {
+      "id": "4",
+      "title": "Decaf Morning Roast",
+      "slug": "decaf-morning-roast",
+      "description": "Start your day right with our Decaf Morning Roast. It delivers the same bold and invigorating flavor as regular coffee but without the caffeine. Enjoy the rich taste without the jitters. Perfect for those who love coffee but prefer a caffeine-free option.",
+      "price": 22,
+      "quantity": 65,
+      "categoryId": "1",
+      "image": "decaf-morning-roast.webp"
+    },
+    {
+      "id": "5",
+      "title": "Dark Roast Blend",
+      "slug": "dark-roast-blend",
+      "description": "Indulge in the deep and robust flavors of our Dark Roast Blend. It's a bold and intense coffee experience that will awaken your senses. If you're looking for a powerful coffee to kickstart your day, this is the one.",
+      "price": 19,
+      "quantity": 70,
+      "categoryId": "1",
+      "image": "dark-roast-blend.webp"
+    },
+    {
+      "id": "7",
+      "title": "Hazelnut Heaven Brew",
+      "slug": "hazelnut-heaven-brew",
+      "description": "Experience the nutty delight of our Hazelnut Heaven Brew. It's a harmonious blend of coffee and the rich, buttery flavor of roasted hazelnuts. This coffee is perfect for those who want to add a touch of indulgence to their day.",
+      "price": 21,
+      "quantity": 80,
+      "categoryId": "1",
+      "image": "hazelnut-heaven-brew.webp"
+    },
+    {
+      "id": "8",
+      "title": "Iced Coffee Refreshment",
+      "slug": "iced-coffee-refreshment",
+      "description": "Beat the heat with our Iced Coffee Refreshment. It's a cool and invigorating blend of coffee brewed to perfection and served over ice. Stay refreshed and caffeinated during warm days with this delightful option.",
+      "price": 16,
+      "quantity": 90,
+      "categoryId": "1",
+      "image": "iced-coffee-refreshment.webp"
+    },
+    {
+      "id": "9",
+      "title": "Cinnamon Spice Infusion",
+      "slug": "cinnamon-spice-infusion",
+      "description": "Warm up your day with the cozy flavors of our Cinnamon Spice Infusion coffee. It's a delightful blend of coffee and the gentle warmth of cinnamon. This coffee will make you feel like you're wrapped in a comforting hug.",
+      "price": 20,
+      "quantity": 70,
+      "categoryId": "1",
+      "image": "cinnamon-spice-infusion.webp"
+    },
+    {
+      "id": "10",
+      "title": "Pumpkin Spice Delight",
+      "slug": "pumpkin-spice-delight",
+      "description": "Celebrate the flavors of fall with our Pumpkin Spice Delight coffee. It's a cozy blend of coffee and the warmth of pumpkin spice. Embrace the autumn vibes with this delightful coffee option.",
+      "price": 23,
+      "quantity": 60,
+      "categoryId": "1",
+      "image": "pumpkin-spice-delight.webp"
+    },
+    {
+      "id": "11",
+      "title": "Toasted Coconut Bliss",
+      "slug": "toasted-coconut-bliss",
+      "description": "Escape to a tropical paradise with our Toasted Coconut Bliss coffee. It's a heavenly combination of coffee and the tropical essence of toasted coconut. Let this coffee transport you to an island getaway.",
+      "price": 22,
+      "quantity": 70,
+      "categoryId": "1",
+      "image": "toasted-coconut-bliss.webp"
+    },
+    {
+      "id": "12",
+      "title": "Coffee Grinder",
+      "slug": "coffee-grinder",
+      "description": "Achieve the perfect grind for your coffee beans with our high-quality coffee grinder. It allows you to adjust the grind size to match your brewing method, ensuring a fresh and flavorful cup of coffee every time.",
+      "price": 35,
+      "quantity": 40,
+      "categoryId": "2",
+      "image": "coffee-grinder.webp"
+    },
+    {
+      "id": "13",
+      "title": "French Press",
+      "slug": "french-press",
+      "description": "Experience the rich and bold flavors of coffee brewed with our French Press. It's an elegant and efficient way to make coffee with full immersion. The stainless steel design ensures durability and heat retention.",
+      "price": 30,
+      "quantity": 50,
+      "categoryId": "2",
+      "image": "french-press.webp"
+    },
+    {
+      "id": "14",
+      "title": "Digital Coffee Scale",
+      "slug": "digital-coffee-scale",
+      "description": "Precision is key in coffee brewing, and our Digital Coffee Scale helps you measure coffee and water with accuracy. It's an essential tool for pour-over and other manual brewing methods.",
+      "price": 20,
+      "quantity": 60,
+      "categoryId": "2",
+      "image": "digital-coffee-scale.webp"
+    },
+    {
+      "id": "15",
+      "title": "Stainless Steel Gooseneck Kettle",
+      "slug": "stainless-steel-gooseneck-kettle",
+      "description": "Achieve precise pouring control with our Stainless Steel Gooseneck Kettle. It's designed for pour-over coffee brewing and ensures a steady and controlled water flow for consistent extraction.",
+      "price": 40,
+      "quantity": 35,
+      "categoryId": "2",
+      "image": "stainless-steel-gooseneck-kettle.webp"
+    },
+    {
+      "id": "16",
+      "title": "Coffee Filters (Pack of 100)",
+      "slug": "coffee-filters",
+      "description": "Keep your coffee brewing process clean and efficient with our Coffee Filters. This pack contains 100 high-quality filters designed to fit various drip coffee makers. They ensure a smooth and sediment-free brew.",
+      "price": 10,
+      "quantity": 100,
+      "categoryId": "2",
+      "image": "coffee-filters.webp"
+    }
+  ],
+  "posts": [],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Coffee",
+      "slug": "coffee"
+    },
+    {
+      "id": "2",
+      "name": "Coffee Accessories",
+      "slug": "accessories"
+    }
+  ],
+  "orders": [
+    {
+      "id": "d4e90b72-3f0b-4604-bc61-66c4642d45e2",
+      "userId": 2,
+      "items": [
+        {
+          "id": "1",
+          "title": "Premium Arabica Coffee",
+          "price": 25,
+          "image": "premium-arabica-coffee.webp",
+          "quantity": 1
+        },
+        {
+          "id": "2",
+          "title": "Italian Espresso Blend",
+          "price": 20,
+          "image": "italian-espresso-blend.webp",
+          "quantity": 1
+        }
+      ],
+      "totalPrice": 100,
+      "shippingAddress": "kod 05-345 miejscowość Nowy Dwór Mazowiecki ul. Nawiasa 4/5 dep. 2",
+      "paymentMethod": "bank transfer",
+      "status": "pending",
+      "createdAt": "2025-03-12T09:57:11.161Z"
+    },
+    {
+      "id": "3aa2148c-c141-4a52-8d0a-a325c0a96426",
+      "userId": 2,
+      "items": [
+        {
+          "id": "1",
+          "title": "Premium Arabica Coffee",
+          "price": 25,
+          "image": "premium-arabica-coffee.webp",
+          "quantity": 1
+        },
+        {
+          "id": "3",
+          "title": "Creamy Latte Coffee",
+          "price": 18,
+          "image": "creamy-latte-coffee.webp",
+          "quantity": 1
+        },
+        {
+          "id": "5",
+          "title": "Dark Roast Blend",
+          "price": 19,
+          "image": "dark-roast-blend.webp",
+          "quantity": 1
+        },
+        {
+          "id": "8",
+          "title": "Iced Coffee Refreshment",
+          "price": 16,
+          "image": "iced-coffee-refreshment.webp",
+          "quantity": 1
+        },
+        {
+          "id": "10",
+          "title": "Pumpkin Spice Delight",
+          "price": 23,
+          "image": "pumpkin-spice-delight.webp",
+          "quantity": 1
+        },
+        {
+          "id": "11",
+          "title": "Toasted Coconut Bliss",
+          "price": 22,
+          "image": "toasted-coconut-bliss.webp",
+          "quantity": 1
+        },
+        {
+          "id": "9",
+          "title": "Cinnamon Spice Infusion",
+          "price": 20,
+          "image": "cinnamon-spice-infusion.webp",
+          "quantity": 1
+        }
+      ],
+      "totalPrice": 100,
+      "shippingAddress": "kod 05-345 miejscowość Nowy Dwór Mazowiecki ul. Nawiasa 4/5 dep. 2",
+      "paymentMethod": "cash",
+      "status": "pending",
+      "createdAt": "2025-03-12T18:14:03.069Z"
+    }
+  ],
+  "users": [
+    {
+      "email": "coderslab@gmail.com",
+      "password": "$2a$10$mXzxTRHPsU/ZzM3hJnqok.SXv7ws0N2hiv/s4QJm9C4thgs5FBWCe",
+      "id": 1
+    },
+    {
+      "email": "tachotech@gmail.com",
+      "password": "$2a$10$1VvrDpCO/vlz/MCWtnVlSOWpqPtDef0wz0QWyvkYlM.k51YocF/eC",
+      "firstName": "Tomasz",
+      "lastName": "Skierś",
+      "confirmPassword": "rrrruuuu",
+      "acceptTermsCheckbox": true,
+      "id": 2
+    },
+    {
+      "email": "michal@gmail.com",
+      "password": "$2a$10$eSfKHMS6in/8.GDT/0QoCeYBJLaDhqGx29Etc5.TuaVerZFiu.MEu",
+      "firstName": "Michał",
+      "lastName": "Skierś",
+      "confirmPassword": "michalek",
+      "acceptTermsCheckbox": true,
+      "id": 3
+    },
+    {
+      "email": "gabriela@gmail.com",
+      "password": "$2a$10$zLe1WCDqNpz4sRBx7H6doO4hzi5pGWWatk66BBPDGCKhfqYjEl8Oe",
+      "firstName": "Gabriela",
+      "lastName": "Skierś",
+      "confirmPassword": "gabriela16",
+      "acceptTermsCheckbox": true,
+      "id": 4
+    }
+  ]
+}
