@@ -213,7 +213,7 @@ server.delete('/orders/:id', (req, res) => {
     const decoded = jwt.verify(token, SECRET_KEY)
     const userId = decoded.userId
 
-    const orderId = parseInt(req.params.id, 10)
+    const orderId = req.params.id
 
     // Wyszukanie zamówienia, które należy do zalogowanego użytkownika
     const order = router.db.get('orders').find({ id: orderId, userId }).value()

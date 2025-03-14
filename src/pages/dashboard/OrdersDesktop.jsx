@@ -18,6 +18,7 @@ export default function OrdersDesktop() {
   const [target, setTarget] = useState(null)
 
   const handleClickOpen = (eTarget) => {
+    //* eTarget to id zamówienia
     setTarget(eTarget)
     setOpen(true)
   }

@@ -167,92 +167,32 @@
   ],
   "orders": [
     {
-      "id": "d4e90b72-3f0b-4604-bc61-66c4642d45e2",
+      "id": "bffe3b2e-f49e-4503-bb36-32a45250a11f",
       "userId": 2,
       "items": [
         {
-          "id": "1",
-          "title": "Premium Arabica Coffee",
-          "price": 25,
-          "image": "premium-arabica-coffee.webp",
+          "id": "12",
+          "title": "Coffee Grinder",
+          "price": 35,
+          "image": "coffee-grinder.webp",
           "quantity": 1
         },
         {
-          "id": "2",
-          "title": "Italian Espresso Blend",
-          "price": 20,
-          "image": "italian-espresso-blend.webp",
+          "id": "13",
+          "title": "French Press",
+          "price": 30,
+          "image": "french-press.webp",
           "quantity": 1
         }
       ],
       "totalPrice": 100,
-      "shippingAddress": "kod 05-345 miejscowość Nowy Dwór Mazowiecki ul. Nawiasa 4/5 dep. 2",
+      "shippingAddress": "Poland, mazowiecke, Nowy Dwór Mazowiecki 05-100, Warszawska 10 m. 33",
       "paymentMethod": "bank transfer",
       "status": "pending",
-      "createdAt": "2025-03-12T09:57:11.161Z"
+      "createdAt": "2025-03-14T09:33:26.842Z"
     },
     {
-      "id": "3aa2148c-c141-4a52-8d0a-a325c0a96426",
-      "userId": 2,
-      "items": [
-        {
-          "id": "1",
-          "title": "Premium Arabica Coffee",
-          "price": 25,
-          "image": "premium-arabica-coffee.webp",
-          "quantity": 1
-        },
-        {
-          "id": "3",
-          "title": "Creamy Latte Coffee",
-          "price": 18,
-          "image": "creamy-latte-coffee.webp",
-          "quantity": 1
-        },
-        {
-          "id": "5",
-          "title": "Dark Roast Blend",
-          "price": 19,
-          "image": "dark-roast-blend.webp",
-          "quantity": 1
-        },
-        {
-          "id": "8",
-          "title": "Iced Coffee Refreshment",
-          "price": 16,
-          "image": "iced-coffee-refreshment.webp",
-          "quantity": 1
-        },
-        {
-          "id": "10",
-          "title": "Pumpkin Spice Delight",
-          "price": 23,
-          "image": "pumpkin-spice-delight.webp",
-          "quantity": 1
-        },
-        {
-          "id": "11",
-          "title": "Toasted Coconut Bliss",
-          "price": 22,
-          "image": "toasted-coconut-bliss.webp",
-          "quantity": 1
-        },
-        {
-          "id": "9",
-          "title": "Cinnamon Spice Infusion",
-          "price": 20,
-          "image": "cinnamon-spice-infusion.webp",
-          "quantity": 1
-        }
-      ],
-      "totalPrice": 100,
-      "shippingAddress": "kod 05-345 miejscowość Nowy Dwór Mazowiecki ul. Nawiasa 4/5 dep. 2",
-      "paymentMethod": "cash",
-      "status": "pending",
-      "createdAt": "2025-03-12T18:14:03.069Z"
-    },
-    {
-      "id": "9f6ce4f9-29ca-4d18-9d3c-729a2fdfa639",
+      "id": "31a29a5c-0a87-4b49-ad6b-696a80edca6d",
       "userId": 2,
       "items": [
         {
@@ -263,10 +203,24 @@
           "quantity": 1
         },
         {
-          "id": "12",
-          "title": "Coffee Grinder",
-          "price": 35,
-          "image": "coffee-grinder.webp",
+          "id": "14",
+          "title": "Digital Coffee Scale",
+          "price": 20,
+          "image": "digital-coffee-scale.webp",
+          "quantity": 1
+        },
+        {
+          "id": "15",
+          "title": "Stainless Steel Gooseneck Kettle",
+          "price": 40,
+          "image": "stainless-steel-gooseneck-kettle.webp",
+          "quantity": 1
+        },
+        {
+          "id": "16",
+          "title": "Coffee Filters (Pack of 100)",
+          "price": 10,
+          "image": "coffee-filters.webp",
           "quantity": 1
         }
       ],
@@ -274,7 +228,7 @@
       "shippingAddress": "Poland, mazowiecke, Nowy Dwór Mazowiecki 05-100, Warszawska 10 m. 33",
       "paymentMethod": "bank transfer",
       "status": "pending",
-      "createdAt": "2025-03-13T18:51:05.820Z"
+      "createdAt": "2025-03-14T09:53:31.556Z"
     }
   ],
   "users": [
